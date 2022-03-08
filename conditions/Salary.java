@@ -18,6 +18,8 @@ public class Salary{
 
         System.out.println("Your salary is: " + salary);
 
+        input.close();
+
     }
 
 }
