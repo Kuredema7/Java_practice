@@ -12,7 +12,7 @@ public class LeapYear {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("To find if it\'s a leap year or not please");
+        System.out.println("\nTo find if it\'s a leap year or not please");
         System.out.print("Enter a year: ");
         int year = input.nextInt();
 
@@ -26,7 +26,10 @@ public class LeapYear {
                 System.out.println(year + " is a leap year");
 
             }
+        } else {
+            System.out.println(year + " is not a leap year");
         }
+
         input.close();
 
     }
