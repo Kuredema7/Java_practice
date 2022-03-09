@@ -27,6 +27,7 @@ public class LeapYear {
 
             }
         }
+        input.close();
 
     }
 
